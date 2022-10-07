@@ -1,0 +1,65 @@
+#container-list {
+	width: 1000px;
+	border: none;
+	margin: 0 auto;
+}
+
+.list {
+	width: 100%;
+	border-top: solid 2px #38008c;
+	border-bottom: solid 2px #38008c;
+	border-left: none;
+	border-right: none;
+	color: white;
+	border-collapse:collapse;
+	font-size: 9pt;
+}
+
+.list th {
+	background-color: none;
+	border-bottom: solid 2px #38008c;
+	padding: 10px;
+	color: white;
+}
+
+.list td {
+	border-bottom: solid 1px #38008c;
+	padding: 5px;
+	text-align: center;
+}
+
+.list a {
+	text-decoration-line: none;
+	color: #ffffff;
+}
+
+.list a:hover {
+	color: #d1b3ff;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.grey {
+	color: #a9a6bb;
+}
+
+.num {
+	width: 8%;
+}
+
+.title {
+	width: 65%;
+}
+
+.name {
+	width: 11%;
+}
+
+.writeday {
+	width: 10%;
+}
+
+.readnum {
+	width: 6%;
+}
+

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0e0022;
+}
+
+.padding {
+	padding: 10px;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #0e0022;
+/* 	position: sticky; */
+	position: fixed;
+	left: 0;
+ 	top: 0;
+/*  	opacity: 0.7; */
+ 	transition: top 0.2s ease-in-out;
+/*  	backdrop-filter: blur(30px); */
+}
+.nav-up {
+    top: -150px;
+}
+
+#logo {
+	float: left;
+	width: 30%;
+	height: 100px;
+	background-color: #0e0022;
+	line-height: 100px;
+	text-align: center;
+	color: #8000ff;
+}
+
+#search {
+	float: left;
+	width: 70%;
+	height: 100px;
+	background-color: #9164c1;
+	line-height: 100px;
+	text-align: center;
+}
+
+.searchbox {
+	width: 80%;
+	height: 50px;
+	border: 1px solid #38008c;
+	border-radius: 0px;
+	background-color: #d1b3ff;
+}
+
+nav {
+	float: left;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #270062;
+}
+
+nav > a {
+	text-decoration-line: none;
+	color: white;
+}
+
+nav > ul > li > a {
+	text-decoration-line: none;
+	color: white;
+}
+.nav1 {
+	width: 100%;
+	text-align: center;
+}
+.nav2 {
+	padding: 0px 0px 0px 20px;
+	width: 70%;
+}
+.nav3 {
+	width: 30%;
+	text-align: left;
+}
+
+.ottN {
+	margin: 0.1%;
+	float: left;
+	width: 10%;
+	height: 500px;
+	background-color: #c9b4e0;
+	color: white;
+}
+
+.ottD {
+	float: left;
+	width: 16%;
+	height: 500px;
+	background-color: #750000;
+	color: white;
+}
+
+.ottN {
+	float: left;
+	width: 16%;
+	height: 500px;
+	background-color: #750000;
+	color: white;
+}
+
+.ottWC {
+	float: left;
+	width: 16%;
+	height: 500px;
+	background-color: #750000;
+	color: white;
+}
+
+.ottWV {
+	float: left;
+	width: 16%;
+	height: 500px;
+	background-color: #750000;
+	color: white;
+}
+
+.ottT {
+	float: left;
+	width: 16%;
+	height: 100px;
+	background-color: #750000;
+	color: white;
+}
+
+.ottBO {
+	float: left;
+	width: 16%;
+	height: 100px;
+	background-color: #750000;
+	color: white;
+}
+
+#slideShow {
+	clear: both;
+	width: 100%;
+	height: 300px;
+	background-color: orange;
+	overflow: hidden;	
+}
+
+#contents {
+	width: 100%;
+	height: 300px;
+}
+
+#tapMenu {
+	float: left;
+	width: 600px;
+	height: 100%;
+	background-color: violet;
+}
+
+#links {
+	float: right;
+	width: 600px;
+	height: 100%;
+	background-color: skyblue;
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+	background-color: darkgrey;
+}
+
+.footer1 {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-size: 9pt;
+}
+
+
+
+
